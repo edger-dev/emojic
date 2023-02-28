@@ -193,7 +193,7 @@ cfg_if! {
         use alloc::string::String;
 
         #[rustfmt::skip]
-        mod alias; // Generated module
+        pub mod alias; // Generated module
     } else {
         #[rustfmt::skip]
         mod matching; // Generated module
