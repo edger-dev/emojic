@@ -18,7 +18,7 @@ use crate::emojis::Family;
 
 lazy_static!{
 	/// Maps string (without colons) to emojis
-    pub(crate) static ref GEMOJI_MAP: HashMap<&'static str, &'static crate::Emoji> = [
+    pub static ref GEMOJI_MAP: HashMap<&'static str, &'static crate::Emoji> = [
         ("+1" , &crate::flat::THUMBS_UP.default as &crate::Emoji),
 ("-1" , &crate::flat::THUMBS_DOWN.default as &crate::Emoji),
 ("100" , &crate::flat::HUNDRED_POINTS as &crate::Emoji),
